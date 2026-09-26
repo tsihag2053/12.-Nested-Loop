@@ -41,7 +41,6 @@ while serving:
     if again != 'y':
         serving = False
 
-
 print("\n=== Daily Denomination Report ===")
 for slot in range(1, 7):
     if slot == 1: value = 100; total = total_100
